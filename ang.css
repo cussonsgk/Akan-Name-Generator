@@ -1,1 +1,69 @@
-
+body{
+  font-family: Arial, sans-serif;
+  background-color: #bbbf82;
+}
+.container{
+  max-width: 400px;
+  margin: 50px auto;
+  background: rgb(215, 223, 142);
+  padding: 25px;
+  border-radius: 8px;
+}
+h1{
+  text-align: center;
+}
+.des{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+label{
+  display: block;
+}
+input.dob{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #000000;
+  color: aliceblue;
+}
+button:hover {
+  background: #342d2d;
+}
+#result{
+  text-align: center;
+  font-weight: 700;
+}
+#day{
+  background-color: rgb(155, 15, 15);
+}
+#month{
+  background-color: yellow;
+}
+#year{
+  background-color: green;
+}
+td{
+  border: solid;
+  background-color: rgb(138, 100, 65);
+}
+tr#head{
+  font-size: large;
+  font-weight: 600;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+  text-align: center;
+}
+#genderinstruction{
+  font-size: larger;
+  text-align: center;
+  text-decoration: underline;
+}
