@@ -16,3 +16,6 @@ document.getElementById("form").addEventListener("submit", function (e) {
   const DD = day;
   const dow =
     ((4*CC-2*CC-1)+Math.floor((5*YY)/4)+Math.floor((26*(MM+1))/10)+DD) % 7;
+  const boynames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  const girlnames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
