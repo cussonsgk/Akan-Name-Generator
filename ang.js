@@ -22,3 +22,4 @@ document.getElementById("form").addEventListener("submit", function (e) {
   const akanname = gender.value === "male"
       ? boynames[dow]
       : girlnames[dow];
+  document.getElementById("dayandname").innerText = `You were born on ${days[dow]} and \nyour Akan name is ${akanname}.`; });
