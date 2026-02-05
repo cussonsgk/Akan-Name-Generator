@@ -18,4 +18,4 @@ HTML, CSS and JavaScript
 
 ## License
 MIT License:
-Users are allowed to use, modify, merge, publish and distribute copies oof the code, as long as the original copyright ant license notice is included in the copies or portions of the code
+Users are allowed to use, modify, merge, publish and distribute copies of the code, as long as the original copyright ant license notice is included in the copies or portions of the code
