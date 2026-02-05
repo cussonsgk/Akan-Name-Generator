@@ -14,9 +14,7 @@ Click on the "Get your Akan Name" button
 And wait a second for your Akan name to be generated
 
 ## Languages Used
-HTML
-CSS
-JavaScript
+HTML, CSS and JavaScript
 
 ## License
 MIT License:
