@@ -10,3 +10,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
   if (day<1 || day>31 || month<1 || month>12)
     {alert("Enter a valid date");
     return;}
+  const CC = Math.floor(year/100);
+  const YY = year %100;
+  const MM = month;
+  const DD = day;
