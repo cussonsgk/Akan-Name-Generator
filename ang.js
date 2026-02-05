@@ -19,3 +19,6 @@ document.getElementById("form").addEventListener("submit", function (e) {
   const boynames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   const girlnames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const akanname = gender.value === "male"
+      ? boynames[dow]
+      : girlnames[dow];
