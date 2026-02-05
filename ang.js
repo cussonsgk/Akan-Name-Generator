@@ -14,3 +14,5 @@ document.getElementById("form").addEventListener("submit", function (e) {
   const YY = year %100;
   const MM = month;
   const DD = day;
+  const dow =
+    ((4*CC-2*CC-1)+Math.floor((5*YY)/4)+Math.floor((26*(MM+1))/10)+DD) % 7;
